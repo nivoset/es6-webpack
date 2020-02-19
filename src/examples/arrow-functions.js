@@ -8,7 +8,6 @@ const test = {
     test: 'variable'
 };
 
-console.log(arrowFunction);
 arrowFunction.call(test) //bind/call doesn't work
 normalFunction.call(test) //bind/call does work!
 
